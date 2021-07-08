@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Widget.MySmoothieSample.BottomNavigationView" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="android:elevation">@dimen/bottomnavigation_elevation</item>
+    </style>
+
+    <style name="TextAppearance.MySmoothieSample.Headline1" parent="TextAppearance.MaterialComponents.Headline1">
+        <item name="android:textSize">@dimen/dimen_28dp</item>
+        <item name="fontFamily">@font/kulimpark_light</item>
+        <item name="android:letterSpacing">1.15</item>
+    </style>
+</resources>

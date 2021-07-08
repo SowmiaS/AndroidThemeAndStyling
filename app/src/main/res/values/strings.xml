@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MySmoothieSample</string>
+    <string name="button_label_welcome_signup">SignUp</string>
+    <string name="button_label_welcome_login">Login</string>
+    <string name="label_login_login">LOG IN</string>
+    <string name="label_login_donthaveaccount_signup">Don\'t have an account? <u>Sign up</u></string>
+    <string name="label_login_edt_emailaddress_hint">Email address</string>
+    <string name="label_login_edt_password_hint">Password</string>
+    <string name="label_home_edt_search_hint">Search</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="gray_900">#FF333333</color>
+    <color name="rust_600">#FF886363</color>
+    <color name="rust_300">#FFE1AFAF</color>
+    <color name="taupe_100">#FFF0EAE2</color>
+    <color name="taupe_800">#FF655454</color>
+    <color name="gray_800">#FF333333</color>
+    <color name="white_800">#CCFFFFFF</color>
+    <color name="white_850">#D9FFFFFF</color>
+    <color name="white_150">#26FFFFFF</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+</resources>

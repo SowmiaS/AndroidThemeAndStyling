@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="192dp"
+    android:layout_height="56dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    app:shapeAppearanceOverlay="@style/ShapeAppearance.MySmoothieSample.SmallComponent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="?colorOnPrimary">
+
+        <ImageView
+            android:id="@+id/home_favourite_category_image"
+            android:layout_width="@dimen/dimen_56dp"
+            android:layout_height="match_parent"
+            android:background="@color/taupe_800"
+            />
+        <TextView
+            android:id="@+id/home_favourite_category_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Short mantras"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/gray_900"
+            android:textAppearance="@style/TextAppearance.MySmoothieSample.Headline3"
+            />
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
+</layout>
