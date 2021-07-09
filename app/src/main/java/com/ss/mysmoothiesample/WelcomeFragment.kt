@@ -21,5 +21,6 @@ class WelcomeFragment : BaseFragment<FragmentWelcomeBinding>() {
     fun onClickLogin(){
         findNavController().navigate(R.id.action_welcomeFragment_to_loginFragment)
     }
-    
+
+
 }
