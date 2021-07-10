@@ -2,9 +2,7 @@
   "homeitems":[
   {
     "title": "Short Mantras",
-    "imageURL": "String",
-    "type": "Favourite Collections"
-  },
+    "imageURL": "String","type": "Favourite Collections"},
   {
     "title": "Short Mantras",
     "imageURL": "String",
