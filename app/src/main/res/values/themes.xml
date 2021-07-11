@@ -27,6 +27,8 @@
     <style name="Theme.MySmoothieSample.Base" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
 
         <item name="android:windowBackground">?background</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
         <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.MySmoothieSample.SmallComponent</item>
         <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.MySmoothieSample.MediumComponent</item>
 

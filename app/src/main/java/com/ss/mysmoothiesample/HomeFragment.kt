@@ -6,11 +6,13 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.ss.mysmoothiesample.databinding.FragmentHomeBinding
+import com.ss.mysmoothiesample.home.HomeViewModelFactory
 import com.ss.mysmoothiesample.home.adapter.HomeItemMainAdapter
+import com.ss.mysmoothiesample.home.network.HomeItemRepository
 import com.ss.mysmoothiesample.home.viewmodel.HomeViewModel
 
 
-abstract class HomeFragment : BaseFragment<FragmentHomeBinding>() {
+class HomeFragment : BaseFragment<FragmentHomeBinding>() {
 
     override var layout = R.layout.fragment_home
 
@@ -18,11 +20,10 @@ abstract class HomeFragment : BaseFragment<FragmentHomeBinding>() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        viewModel = ViewModelProvider(this).get(HomeViewModel::class.java)
-    }
+        viewModel = ViewModelProvider(this, HomeViewModelFactory(HomeItemRepository())).get(HomeViewModel::class.java)    }
 
-    override fun onAttach(context: Context) {
-        super.onAttach(context)
+    override fun onActivityCreated(savedInstanceState: Bundle?) {
+        super.onActivityCreated(savedInstanceState)
         observerHomeItems()
     }
 
